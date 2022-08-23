@@ -1,0 +1,173 @@
+body {
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+
+section {
+    margin-bottom: 10%;
+}
+
+span {
+    color: orange;
+}
+
+
+/*------------------------- all class this site ---------------------- */
+
+.banner {
+    background-image: url(donate-today/images/donation133.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 15%;
+
+}
+
+.banner-text {
+    text-align: center;
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
+.money-decoration {
+    background-color: #FAFAFA;
+    border-radius: 2px;
+    padding: 2%;
+    margin: 4%;
+}
+
+.sylhet-description {
+    background-color: bisque;
+    border: 3px solid goldenrod;
+    border-radius: 7px;
+    margin-left: 13px;
+    margin-bottom: 6px;
+}
+
+.food-family {
+    background-color: rgba(79, 157, 166, 0.1);
+    padding: 2%;
+    border-radius: 5px;
+    margin-left: 13px;
+}
+
+.shelter-family {
+    background-color: rgba(255, 89, 89, 0.1);
+    padding: 2%;
+    border-radius: 5px;
+    margin-left: 13px;
+}
+
+.education-family {
+    background-color: #FFF4D6;
+    padding: 2%;
+    border-radius: 5px;
+    margin-left: 13px;
+}
+
+.plan-alignment {
+    margin-top: 7%;
+}
+
+
+.subscribe {
+    background-color: #FFF4D6;
+    margin-top: 5%;
+    padding: 8%;
+    border-radius: 10px;
+}
+
+
+/*----------------- common class of this site --------------- */
+.flexible-container {
+    display: flex;
+}
+
+.donate-amount-plan {
+    width: 60%;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.button {
+    text-decoration: none;
+    background-image: linear-gradient(tomato, salmon);
+    font-weight: 700;
+    padding: 5px 20px;
+    border-radius: 3px;
+
+}
+
+/*-------------- all id this site -------------------------- */
+#money-default {
+    background-color: #FFEEEE;
+    border: 2px solid salmon;
+    border-radius: 5px;
+    padding: 2%;
+    margin: 4%
+}
+
+#write-money {
+    border: none;
+    text-align: center;
+}
+
+#donate-button {
+    text-decoration: none;
+    border: none;
+    padding: 1% 2%;
+    color: white;
+}
+
+#sylhet {
+    text-align: center;
+    font-style: italic;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+#sylhet-photo {
+    width: 26em;
+    border-radius: 5px;
+}
+
+#email {
+    border: none;
+    background-color: #D9D9D9;
+    padding: 8px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+#subscribe-id {
+    border: none;
+    color: white;
+    background-color: red;
+    padding: 8px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+/*---------------- design of footer part ---------------------- */
+footer {
+    background-color: black;
+    padding: 1%;
+    text-align: center;
+}
+
+footer h2 {
+    color: saddlebrown;
+}
+
+footer h6 {
+    color: white;
+}
